@@ -1,0 +1,36 @@
+body{
+    background-color:  lightsteelblue;
+}
+@media (min-width: 100px) and (max-width: 360px) {
+    .data-container{
+        height: 50vh;
+    }
+ }
+@media (min-width:361px) and (max-width: 575.98px) { 
+    .data-container{
+        height: 63vh;
+    }
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .data-container{
+        height: 83vh;
+    }
+ }
+@media (min-width: 1200px) { 
+    .data-container{
+        height: 80vh;
+    }
+ }
+ ::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

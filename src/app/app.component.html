@@ -1,0 +1,13 @@
+<div class="container data-container mt-5 overflow-auto">
+  <div class="card bg-secondary text-center">
+    <div class="card-header text-info">
+      <div class="input-group">
+        <input type="text" class="form-control" id="studentSearch" (keyup)="searchStudents()" placeholder="Search by name..." data-toggle="tooltip" data-placement="top" title="Search for a student by name.">
+    </div>
+    <div class="input-group">
+      <input type="text" class="form-control" id="tagSearch" (keyup)="searchTags()" placeholder="Search by tag..." data-toggle="tooltip" data-placement="top" title="Search for a student by tag.">
+  </div>
+  </div>
+    <ul class="list-group list-group-flush bg-light" id="studentList"></ul>
+  </div>
+</div>
